@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@font-face {
+  font-family: 'giant-mouse';
+  src: url("../assets/fonts/giant-mouse.ttf") format("truetype");
+}
+
+:root {
+  --color-navbar-background: rgba(51, 48, 46, 1.000);
+  --color-footer-background: rgba(51, 48, 46, 1.000);
+  --color-content-background: rgba(64, 61, 58, 1.000);
+  --color-primary: rgba(235, 182, 126, 1.000);
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
