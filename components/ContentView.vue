@@ -28,6 +28,12 @@
         dans ce contenu un jeu de l'oie revisité et sans
         merci pour jouer avec vos potes et en famille.
       </p>
+      <p class="separator" />
+      <p>
+        <b>Chèeeeh</b> est un jeu de société. Nous vous proposons
+        dans ce contenu un jeu de l'oie revisité et sans
+        merci pour jouer avec vos potes et en famille.
+      </p>
       <a href="#" class="start-questions">
         Commencer
         <img style="magin: 0; padding: 0" src="@/assets/img/arrow-right-bold-circle.png">
