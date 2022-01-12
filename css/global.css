@@ -17,3 +17,18 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.gap-4r {
+  gap: 4rem;
+}
+
+.gap-2r {
+  gap: 2rem;
+}
+
+.gap-1r {
+  gap: 1rem;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
