@@ -1,30 +1,26 @@
 <template>
   <footer>
-    <div class="content-column main">
-      <div class="content-row gap-4">
-        <div class="content-column contact-notes">
-          <h3>Notes</h3>
-          <p>skjdgjsgdjsgdsgdrefshdgsjdhgjsgds</p>
+    <div class="content-column main gap-1r">
+      <div class="content-row wrap gap-1r">
+        <div class="content-column infos">
+          <h3>Infos</h3>
+          <h4>Contact Totototi-Games</h4>
+          <h4>Contact Webmaster</h4>
         </div>
         <div class="content-column counter-social">
           <deadline-counter />
         </div>
       </div>
-      <div class="copyright">
-        Copyright © 2022 TOTOTOTI-GAMES LLC | All Rights Reserved.
-      </div>
-    </div>
-    <!--
-    <div>
-      <p>Rejoingez-nous sur une des ses plateforme</p>
-      <div class="social-network">
-        <img height="24" width="24" src="@/assets/img/instagram.png">
+      <div class="content-row social-network">
+        <img src="@/assets/img/instagram.png">
         <img src="@/assets/img/twitter.png">
         <img src="@/assets/img/discord.png">
         <img src="@/assets/img/facebook.png">
       </div>
+      <div class="copyright">
+        Copyright © 2022 TOTOTOTI-GAMES LLC | All Rights Reserved.
+      </div>
     </div>
-    -->
   </footer>
 </template>
 
@@ -35,19 +31,10 @@
     flex-direction: column;
     align-items: center;
     background-color: var(--color-footer-background);
-    height: 13rem;
-    padding: 2rem 0 0.75rem 0;
-  }
-
-  .social-network {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 1rem;
+    padding: 1.5rem 0 0.75rem 0;
   }
 
   .main {
-    width: 40%;
     height: 100%;
   }
 
@@ -61,27 +48,33 @@
   .content-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
-  .gap-4 {
-    gap: 4rem;
+  .social-network {
+    gap: 3rem;
   }
 
-  .content-row div {
-    border: solid 1px white;
+  .infos h3 {
+    margin: 0 5px 5px 5px;
+    color: var(--color-primary);
   }
 
-  .counter-social {
-    width: 70%;
-  }
-
-  .contact-notes {
-    width: 30%;
+  .infos h4 {
+    margin: 0;
+    color: rgb(228, 228, 228);
+    font-size: 14px;
   }
 
   .copyright {
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(167, 167, 167);
   }
+
+  @media only screen and (max-width: 460px) {
+    .copyright {
+      font-size: 11px;
+    }
+  }
+
 </style>
