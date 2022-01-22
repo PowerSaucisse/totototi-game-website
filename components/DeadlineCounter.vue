@@ -66,9 +66,8 @@ export default defineComponent({
     flex-direction: row;
     padding: 7px 12px;
     gap: 17px;
-    border: solid 1px white;
-    border-radius: 6px;
-    background-color: rgb(207, 147, 83);
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
   }
 
   .column {
@@ -79,17 +78,20 @@ export default defineComponent({
   }
 
   .unit {
-    border: solid 2px var(--color-primary);
-    border-radius: 6px;
+    /* border: solid 1px var(--color-primary); */
+    padding-top: 5px;
+    border-radius: 5px;
     background-color: var(--color-navbar-background);
-    color: white;
   }
 
   .unit h2 {
     margin: 2px;
+    color: white;
+    font-size: 19px;
   }
 
   .unit p {
     margin: 5px;
+    color: rgb(218, 159, 97);
   }
 </style>
