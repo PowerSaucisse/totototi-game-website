@@ -52,6 +52,7 @@
   }
 
   .social-network {
+    margin-top: 10px;
     gap: 3rem;
   }
 
