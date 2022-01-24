@@ -68,6 +68,13 @@ export default defineComponent({
     gap: 17px;
     border-radius: 5px;
     background-color: rgb(37, 37, 37);
+    border: 1px solid rgba(235, 182, 126, 0.800);
+    box-shadow: 3px 3px 0 rgba(235, 182, 126, 0.800), 6px 6px 0 rgba(201, 141, 77, 0.8), 9px 9px 0 rgba(153, 94, 31, 0.8);
+    transition: 0.2s;
+  }
+
+  .counter:hover {
+    transform: scale(1.03);
   }
 
   .column {
