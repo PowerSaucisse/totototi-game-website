@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <div class="presentation">
@@ -5,39 +6,17 @@
         Tenter de gagner le kickstarter Chèeeh !
       </h2>
       <p>
-        Afin de commencer les ostilité comme il se doit,
-        nous vous proposons ici de répondre à quelques
-        questions pour tenter de remporter notre kickstarter
-        de jeu.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nostrum, eum ad, perferendis, quod repellat possimus est ab atque totam consequuntur velit. Facilis porro, recusandae laborum fugiat molestiae quam adipisci earum iure deleniti. Temporibus, vitae!
       </p>
-      <p class="separator" />
+      <div class="separator" />
       <p>
-        <b>Chèeeeh</b> est un jeu de société. Nous vous proposons
-        dans ce contenu un jeu de l'oie revisité et sans
-        merci pour jouer avec vos potes et en famille.
-      </p>
-      <p class="separator" />
-      <p>
-        <b>Chèeeeh</b> est un jeu de société. Nous vous proposons
-        dans ce contenu un jeu de l'oie revisité et sans
-        merci pour jouer avec vos potes et en famille.
-      </p>
-      <p class="separator" />
-      <p>
-        <b>Chèeeeh</b> est un jeu de société. Nous vous proposons
-        dans ce contenu un jeu de l'oie revisité et sans
-        merci pour jouer avec vos potes et en famille.
-      </p>
-      <p class="separator" />
-      <p>
-        <b>Chèeeeh</b> est un jeu de société. Nous vous proposons
-        dans ce contenu un jeu de l'oie revisité et sans
-        merci pour jouer avec vos potes et en famille.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In illo nisi repellendus veniam quibusdam vitae debitis, cumque, nostrum officia cum explicabo rerum accusamus provident. Qui dolorem tempore repellat beatae quas voluptatum optio corporis assumenda eos?
       </p>
       <a href="#" class="start-questions">
         Commencer
         <img style="magin: 0; padding: 0" src="@/assets/img/arrow-right-bold-circle.png">
       </a>
+      <RoadmapItem />
     </div>
   </div>
 </template>
@@ -56,7 +35,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 420px;
+    width: 650px;
+    min-height: 750px;
     margin: 2rem 1rem;
   }
 
@@ -69,6 +49,7 @@
   .presentation h2 {
     font-family: 'giant-mouse';
     color: var(--color-primary);
+    text-shadow: 3px 3px 0 rgb(48, 39, 39);
   }
 
   .presentation p {
@@ -88,8 +69,21 @@
     text-decoration: none;
     background-color: var(--color-primary);
     padding: 3px 6px;
-    border: solid 3px rgb(219, 159, 95);
+    border: solid 3px var(--color-primary);
     border-radius: 7px;
+    box-shadow: 3px 1px 3px 1px rgba(0, 0, 0, 0.349);
+  }
+
+  .start-questions:hover {
+    /* background-color: rgb(219, 159, 95); */
+    border: 3px solid rgb(219, 159, 95);
+  }
+
+  @media screen and (max-width: 500px) {
+    h2 {
+      font-size: 21px;
+      font-weight: 200;
+    }
   }
 
 </style>
