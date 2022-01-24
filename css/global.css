@@ -10,6 +10,10 @@
   --color-footer-background: rgba(51, 48, 46, 1.000);
   --color-content-background: rgba(64, 61, 58, 1.000);
   --color-primary: rgba(235, 182, 126, 1.000);
+  --color-primary-gdt-1: rgb(197, 139, 78);
+  --color-primary-gdt-2: rgb(172, 109, 42);
+  --color-primary-gdt-3: rgb(141, 81, 17);
+  --color-primary-gdt-4: rgb(32, 17, 0);
 }
 
 body {
@@ -31,4 +35,13 @@ body {
 
 .wrap {
   flex-wrap: wrap;
+}
+
+.sc-3 {
+  transform: scale(1.03);
+}
+
+.gdt-layer-2 {
+  box-shadow: 3px 3px 0 var(--color-primary-gdt-1), 6px 6px 0 var(--color-primary-gdt-3);
+  border-radius: 4px;
 }
